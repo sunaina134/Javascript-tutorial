@@ -1,0 +1,17 @@
+let strr="helo I am Sunaina";
+let res=strr.includes("I");
+///////////////////
+let strr="helo I am Sunaina";
+let res=strr.startsWith("m");
+console.log(res);
+//////////////////
+let strr="I have amount of 1000";
+let res=strr.slice(17);
+console.log(res);
+/////////////////
+let str="naina";
+str[4]=r;
+console.log(res);//we cant change string because it is immutable;
+////////////////
+
+

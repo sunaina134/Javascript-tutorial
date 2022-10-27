@@ -1,0 +1,45 @@
+
+let arr=[];
+let size=5;
+
+for(let i=0;i<size;i++){
+arr[i]=prompt("enter element"+(i+1) );
+
+}
+console.log(arr);
+////////////////////////////////////////
+let arr=[1,2,3,4,5,6];
+let a=prompt("Enter a number")
+a=Number.parseINT(a);
+arr.push(a);
+console.log(arr);
+/////////////////////////////////////
+let arr=[1,2,3,4,5,6];
+do{
+let a=prompt("Enter a number")
+a=Number.parseINT(a);
+arr.push(a);
+console.log(arr);
+}
+while(a!=0);
+console.log(arr);
+///////////////////////////////////
+let arr=[1,2,3,4,5,89,670]
+let n=arr.filter((x))=>{
+    return x%10==0;
+})
+console.log(n);
+////////////////////////////////
+let arr=[1,4,5,6]
+let n=arr.map((x))=>{
+    return x*x
+})
+console.log(n);
+/////////////////////////////
+let a=[1,45,43,77,42];
+let n=a.map((value,index,array)=>{
+console.log(value,index,array);
+
+})
+console.log(n);
+

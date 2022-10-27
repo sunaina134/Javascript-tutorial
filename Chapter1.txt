@@ -1,0 +1,11 @@
+1.concat a number to String type
+
+let newvar="1145";
+console.log( newvar.concat( '5'));
+--> 11455
+
+2.word meaning dictionary
+const dictionary={
+    strange:"queer"
+}
+Object.keys(dictionary);
